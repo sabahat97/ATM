@@ -26,7 +26,7 @@ if (ansPin.pin === pinCode) {
             { name: "amount",
                 message: "Select the Amount:",
                 type: "list",
-                choices: [10000, 20000, 30000, 40000]
+                choices: [10000, 20000, 30000, 40000, 50000]
             }
         ]);
         if (withdraw.amount > myBalance) {

@@ -9,6 +9,8 @@ let pinCode = 7287;
    console.log (`Your current balance is : ${myBalance}`);
    console.log (`PIN Code : ${pinCode}`);
 
+
+
 let ansPin = await inquirer.prompt([
     {
       name: "pin",
@@ -37,7 +39,7 @@ if (operationAns.operation === "Withdraw") {
         { name : "amount",
             message : "Select the Amount:",
             type : "list",
-            choices :[10000, 20000, 30000, 40000] 
+            choices :[10000, 20000, 30000, 40000,50000] 
 }
 ]);
 
