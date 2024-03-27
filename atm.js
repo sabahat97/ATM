@@ -42,5 +42,5 @@ if (ansPin.pin === pinCode) {
     }
 }
 else {
-    console.log("Pin Code is inccorect \n Please enter the correct pincode!");
+    console.log("Pin Code is inccorect\nPlease enter the correct pincode!");
 }
